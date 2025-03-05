@@ -35,7 +35,7 @@ const App = () => {
       };
     }, []);
 
-    // 根据屏幕宽度决定视频源和poster
+    // Determine video source and poster based on screen width
     function getBackgroundInfo() {
       const aspectRatio = window.innerWidth / window.innerHeight;
 
@@ -65,7 +65,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className="relative z-0">
-        {/*  全局悬浮按钮 */}
+        {/* Global floating buttons */}
         <PageFloatButtons
           shape="circle"
           style={{
@@ -73,7 +73,7 @@ const App = () => {
           }}
         />
 
-        {/* 背景视频,hero页及菜单栏 */}
+        {/* Background video, hero section and navigation */}
         <div className="relative">
           <BackgroundVideo />
           <div className="absolute inset-0">
@@ -92,7 +92,7 @@ const App = () => {
             backgroundImage: 'url("https://wy-portfolio.oss-cn-chengdu.aliyuncs.com/mainbg.jpg")',
 
             backgroundRepeat: 'no-repeat',
-            // 设置背景大小，这里可以使用 cover 或 contain，具体取决于你的需求
+            // Set background size, using 'cover' or 'contain' depending on your needs
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

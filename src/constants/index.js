@@ -83,50 +83,34 @@ const services = [
 const socials = [
   {
     name: 'github',
-    url: 'https://github.com/ayueaa?tab=repositories',
-  },
-  {
-    name: 'facebook',
-    url: 'https://github.com/ayueaa?tab=repositories',
+    url: 'https://github.com/krzemienski',
   },
   {
     name: 'linkedin',
-    url: 'https://github.com/ayueaa?tab=repositories',
+    url: 'https://www.linkedin.com/in/nickkrzemienski/',
   },
   {
-    name: 'wechat',
-    url: 'https://github.com/ayueaa?tab=repositories',
+    name: 'website',
+    url: 'https://awesome.video',
+  },
+  {
+    name: 'email',
+    url: 'mailto:krzemienski@gmail.com',
   },
 ];
 
 const technologies = [
   {
-    name: 'Python',
-    icon: python,
+    name: 'Docker',
+    icon: docker,
   },
   {
-    name: 'Golang',
-    icon: golang,
+    name: 'JavaScript',
+    icon: javascript,
   },
   {
     name: 'React',
     icon: reactjs,
-  },
-  {
-    name: 'Spark',
-    icon: spark,
-  },
-  {
-    name: 'MongoDB',
-    icon: mongodb,
-  },
-  {
-    name: 'MySQL',
-    icon: mysql,
-  },
-  {
-    name: 'Redis',
-    icon: redis,
   },
   {
     name: 'Git',
@@ -137,39 +121,47 @@ const technologies = [
     icon: linux,
   },
   {
-    name: 'Docker',
-    icon: docker,
+    name: 'Python',
+    icon: python,
   },
   {
-    name: 'typescript',
+    name: 'TypeScript',
     icon: typescript,
   },
   {
-    name: 'tailwind',
+    name: 'MongoDB',
+    icon: mongodb,
+  },
+  {
+    name: 'Redis',
+    icon: redis,
+  },
+  {
+    name: 'MySQL',
+    icon: mysql,
+  },
+  {
+    name: 'Tailwind',
     icon: tailwind,
   },
   {
-    name: 'redux',
+    name: 'Redux',
     icon: redux,
-  },
-  {
-    name: 'antd',
-    icon: 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg',
   },
 ];
 
 export const skills = [
   {
-    Stack: 'tech.skill.0', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'tech.skill.0', // Video Streaming
+    progressPercentage: '95',
   },
   {
-    Stack: 'tech.skill.1',
+    Stack: 'tech.skill.1', // Cloud & DevOps
     progressPercentage: '90',
   },
   {
-    Stack: 'tech.skill.2',
-    progressPercentage: '50',
+    Stack: 'tech.skill.2', // Mobile Development
+    progressPercentage: '85',
   },
 ];
 
@@ -222,193 +214,193 @@ const projects = [
     description: 'work.card.0.description',
     tags: [
       {
-        name: 'react',
-        color: 'text-cyan-500', // 青色
+        name: 'kubernetes',
+        color: 'text-blue-500', // Blue
       },
       {
-        name: 'threejs',
-        color: 'text-red-500', // 红色
+        name: 'HEVC',
+        color: 'text-green-500', // Green
       },
       {
-        name: 'tailwindcss',
-        color: 'text-orange-500', // 橙色
+        name: 'HLS',
+        color: 'text-purple-500', // Purple
       },
     ],
     image: preview,
-    source_code_link: 'https://github.com/ayueaa/react-developer-portfolio',
+    source_code_link: 'https://github.com/krzemienski',
   },
   {
     name: 'work.card.1.name',
     description: 'work.card.1.description',
     tags: [
       {
-        name: 'python',
-        color: 'text-blue-500', // 蓝色
+        name: 'multi-view',
+        color: 'text-red-500', // Red
       },
       {
-        name: 'mongodb',
-        color: 'text-green-500', // 绿色
+        name: 'streaming',
+        color: 'text-cyan-500', // Cyan
       },
       {
-        name: 'fastapi',
-        color: 'text-pink-500', // 粉红色
+        name: 'server-side',
+        color: 'text-orange-500', // Orange
       },
     ],
     image: ipmanageBackend,
-    source_code_link: 'https://github.com/ayueaa/fastapi-ip-manage',
+    source_code_link: 'https://github.com/krzemienski',
   },
   {
     name: 'work.card.2.name',
     description: 'work.card.2.description',
     tags: [
       {
-        name: 'react',
-        color: 'text-cyan-500', // 青色
+        name: 'AWS',
+        color: 'text-yellow-500', // Yellow
       },
       {
-        name: 'typescript',
-        color: 'text-purple-500', // 紫色
+        name: 'DRM',
+        color: 'text-pink-500', // Pink
       },
       {
-        name: 'Antd',
-        color: 'text-yellow-500', // 黄色
+        name: 'VOD',
+        color: 'text-indigo-500', // Indigo
       },
     ],
     image: ipmanage,
-    source_code_link: 'https://github.com/ayueaa/react-antd-ip-admin',
+    source_code_link: 'https://github.com/krzemienski',
   },
 ];
 
 const blogs = [
   {
-    title: 'Gitlab-CI使用及.gitlab-ci.yml配置入门一篇就够了',
+    title: 'Optimizing Video Streaming with HEVC and AVC Dual Format Support',
     description:
-      'Gitlab-CI/CD 持续集成测试篇\n\t一、 Gitlab-CI/CD使用场景\n\t首先，公司使用Gitlab作为工作仓库进行代码发布及版本控制，Gitlab内置了CI/CD的工具，这些工具可以用于代码提交的同时完成镜像构建、自动化测试、自动化部署等连续的工作...',
-    wordCount: 1030,
-    readCount: 12340,
+      'In this presentation, I discuss how implementing dual format support for both HEVC and AVC codecs significantly enhances content delivery network flexibility and efficiency. This approach ensures high-quality video content delivery across a wide range of devices and network conditions, optimizing streaming capabilities and improving the end-user experience with seamless, high-definition viewing.',
+    wordCount: 1200,
+    readCount: 8500,
     tags: [
       {
-        name: 'runner',
-        color: 'red', // 蓝色
+        name: 'HEVC',
+        color: 'red',
       },
       {
-        name: 'gitlab-ci.yml',
-        color: 'blue', // 绿色
+        name: 'AVC',
+        color: 'blue',
       },
       {
-        name: 'Gitlab-CI/CD',
-        color: 'yellow', // 粉红色
+        name: 'Streaming',
+        color: 'yellow',
       },
     ],
     image: article1,
-    articleLink: 'https://www.jianshu.com/p/4cc441b1c8a3',
+    articleLink: 'https://awesome.video',
   },
   {
-    title: 'Streamlit如何跳转第三方页面实现登陆鉴权',
+    title: 'Server-Side Multi-View Systems for Enhanced Sports Viewing',
     description:
-      'Python可以使用streamlit框架实现0前端代码，全栈开发数据大屏等简单的可交互可视化web项目。普通登陆可以使用streamlit-authenticator第三方包轻松实现。该文章主要记录了在使用streamlit需要跳转第三方cas页面进行登陆的情况...',
-    wordCount: 544,
-    readCount: 4156,
+      'This talk explores the development of server-side multi-view systems that integrate multiple video feeds within a single player interface. I discuss how this technology revolutionizes content consumption for sports events, allowing viewers to switch between camera angles and customize their viewing experience in real-time.',
+    wordCount: 950,
+    readCount: 6200,
     tags: [
       {
-        name: 'streamlit',
-        color: 'red', // 蓝色
+        name: 'Multi-View',
+        color: 'red',
       },
       {
-        name: 'python',
-        color: 'blue', // 绿色
+        name: 'Sports',
+        color: 'blue',
       },
       {
-        name: 'cas-auth',
-        color: 'yellow', // 粉红色
+        name: 'OTT',
+        color: 'yellow',
       },
     ],
     image: article2,
-    articleLink: 'https://www.jianshu.com/p/dc8d3f12b58c',
+    articleLink: 'https://awesome.video',
   },
   {
-    title: '分布式、多节点系统下定时任务重复执行问题解决方案',
+    title: 'Kubernetes for Video Processing: Scaling Transcoding Workloads',
     description:
-      '在分布式系统或多worker环境下，确保后端任务（如由apscheduler)只执行一次。这通常需要外部数据库支持,通过创建带有唯一字段的自定义表,可以实现锁机制。可以通过装饰器改造现有函数，以支持分布式环境。这种方法适用于不同语言和后端框架及后台定时任务...',
-    wordCount: 958,
-    readCount: 6400,
+      'In this technical deep dive, I share insights on deploying video processing workloads in Kubernetes. The presentation covers how to effectively manage containerized applications, implement horizontal pod autoscaling, and utilize persistent volumes for data-intensive video processing tasks like transcoding and packaging.',
+    wordCount: 1050,
+    readCount: 7300,
     tags: [
       {
-        name: 'python',
-        color: 'red', // 蓝色
+        name: 'Kubernetes',
+        color: 'red',
       },
       {
-        name: 'distributed-lock',
-        color: 'blue', // 绿色
+        name: 'Transcoding',
+        color: 'blue',
       },
       {
-        name: 'unique-key',
-        color: 'yellow', // 粉红色
+        name: 'Scaling',
+        color: 'yellow',
       },
     ],
     image: article3,
-    articleLink: 'https://www.jianshu.com/p/756e44495cb4',
+    articleLink: 'https://awesome.video',
   },
   {
-    title: 'Spark中广播变量的使用: When,Why,How',
+    title: 'Cost Optimization Strategies for Cloud-Based Video Processing',
     description:
-      '在Spark中，广播变量（Broadcast Variables）是一种用于将大型数据集或对象有效传递给所有集群节点的机制。本文将介绍如何使用广播变量以及何时应该使用它们，还将使用pyspark讨论如何在数据库连接池中使用广播变量。...',
-    wordCount: 670,
-    readCount: 200,
+      'This presentation explores how we reduced transcoding and packaging costs by approximately 70% compared to on-demand cloud compute by leveraging AWS Spot Instances and a container-based infrastructure. I discuss the architecture, implementation challenges, and best practices for maintaining reliability while significantly reducing operational costs.',
+    wordCount: 880,
+    readCount: 5400,
     tags: [
       {
-        name: 'pyspark',
-        color: 'red', // 蓝色
+        name: 'AWS',
+        color: 'red',
       },
       {
-        name: 'broadcast-variables',
-        color: 'blue', // 绿色
+        name: 'Cost-Optimization',
+        color: 'blue',
       },
       {
-        name: '连接池',
-        color: 'yellow', // 粉红色
+        name: 'Spot-Instances',
+        color: 'yellow',
       },
     ],
     image: article4,
-    articleLink: 'https://www.jianshu.com/p/11cb5303421d',
+    articleLink: 'https://awesome.video',
   },
   {
-    title: 'go语言resty库并发爬取bing大图实战',
+    title: 'The Future of Video Streaming: Just-in-Time Transcoding and Packaging',
     description:
-      '最近完成了《Go语言实战》的阅读。作为实践，决定编写 Go 并发爬虫，采用 restyhttp 请求库和 htmlquery 库进行 HTML 解析。并发控制使用 sync.WaitGroup，目标是爬取必应每日一图，包括分页处理、内容提取和图片下载。这个项目是对新技能的练手应用，探索了 Go 语言的并发特性。',
-    wordCount: 774,
-    readCount: 1777,
+      'In this forward-looking talk, I discuss the development and implementation of just-in-time (JIT) transcoding and packaging solutions for video streaming. This approach represents the next evolution in video delivery, enabling more efficient use of storage and bandwidth while maintaining high-quality viewing experiences across devices.',
+    wordCount: 1100,
+    readCount: 9200,
     tags: [
       {
-        name: 'golang',
-        color: 'red', // 蓝色
+        name: 'JIT',
+        color: 'red',
       },
       {
-        name: 'restyhttp',
-        color: 'blue', // 绿色
+        name: 'Transcoding',
+        color: 'blue',
       },
       {
-        name: 'goruntine',
-        color: 'yellow', // 粉红色
+        name: 'Future-Tech',
+        color: 'yellow',
       },
     ],
     image: article5,
-    articleLink: 'https://www.jianshu.com/p/dcd2f0311722',
+    articleLink: 'https://awesome.video',
   },
 ];
 
 const githubRepos = {
   show: true,
   heading: 'Recent Projects',
-  username: 'ayueaa', //i.e."johnDoe12Gh"
+  username: 'krzemienski',
   length: 4,
   specfic: [],
 };
 
 const thisProject = {
-  name: 'react-developer-portfolio',
-  githubLink: 'https://github.com/ayueaa/react-developer-portfolio',
-  description: 'Portfolio website create by ayuea',
+  name: 'Nick Krzemienski Portfolio',
+  githubLink: 'https://github.com/krzemienski',
+  description: 'Portfolio website for Nick Krzemienski, Engineering Lead in Video Innovations',
 };
 
 export { blogs, experiences, githubRepos, projects, services, socials, technologies, thisProject };

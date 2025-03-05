@@ -1,5 +1,5 @@
 {
-  "title": "Yue's Portfolio",
+  "title": "Nick's Portfolio",
   "navBar": {
     "about": "About",
     "work": "Work",
@@ -10,18 +10,18 @@
   },
   "hero": {
     "hello": "Hi, I'm",
-    "name": "Yue",
-    "typeWords": ["Python Engineer", "React Learner", "Full Stack Aspirant"]
+    "name": "Nick",
+    "typeWords": ["Engineering Lead", "Video Streaming Expert", "Software Engineer"]
   },
   "about": {
     "title": "Introduction",
     "subTitle": "Overview.",
-    "content": "Hi there! I'm a Python Developer and Junior React Engineer with experience in frameworks like FastAPI, Flask and React. My skill set includes web scraping with Scrapy, data analysis with Pandas, big data processing with PySpark, and basic Golang development. I'm proficient in utilizing Large Language Models (LLMs) for AI-assisted development and have deep experience as an LLM power user. My technical expertise extends to creating web interfaces with modern React components, and I'm continuously growing as a Full Stack Developer. Feel free to connect and discuss with me.",
+    "content": "With over 12 years of experience in software engineering management and technical leadership, I've been pushing the boundaries of mobile and web development. Since 2016, I've specialized in the OTT video space, working with nearly all aspects of streaming media. I developed a groundbreaking shared Swift library for iOS/tvOS apps, led the tvOS and Roku platforms at fuboTV, and served as Engineering Lead for VOD Encoding and Operations. Currently, as Engineering Lead of Video Innovations, I focus on developing server-side multi-view systems and just-in-time transcoding solutions. My leadership approach is deeply rooted in my service with the United States Marine Corps, where I served as an Infantry Squad Leader with the rank of Sergeant. For more details about my work, visit https://awesome.video.",
     "cardTitle": {
-      "0": "Web Developer",
-      "1": "React Developer",
-      "2": "Backend Developer",
-      "3": "Content Creator"
+      "0": "Video Streaming Expert",
+      "1": "iOS/tvOS Developer",
+      "2": "Engineering Leader",
+      "3": "Cloud Architecture"
     }
   },
   "experience": {
@@ -29,54 +29,63 @@
     "subTitle": "Work Experience.",
     "detail": {
       "0": {
-        "title": "Documentation Engineer",
-        "company_name": "CNPC",
-        "date": "Sep 2015 - May 2019",
-        "points": ["Python automation for file management and supplies calculation", "Technical support"]
+        "title": "Engineering Lead, Video Innovations",
+        "company_name": "fuboTV Inc.",
+        "date": "Mar 2022 - Jun 2024",
+        "points": [
+          "Spearheaded the development of server-side multi-view systems",
+          "Engineered a just-in-time (JIT) transcoding and packaging solution for HEVC files",
+          "Deployed solutions in Kubernetes (k8s) for enhanced scalability and fault tolerance",
+          "Implemented persistent volumes and stateful sets for effective data management",
+          "Collaborated with cross-functional teams to design scalable solutions"
+        ]
       },
       "1": {
-        "title": "Data Engineer",
-        "company_name": "CMB",
-        "date": "Sep 2019 - Nov 2020",
+        "title": "Engineering Lead, VOD Encoding & Operations",
+        "company_name": "fuboTV Inc.",
+        "date": "Feb 2018 - Feb 2022",
         "points": [
-          "Backend design and development of application systems, including Django, Flask, Tornado",
-          "Data ETL process handling",
-          "Providing data query microservices API"
+          "Led encoding, packaging, and operations of VODs (500+ hours of assets daily)",
+          "Reduced transcoding costs by 70% using AWS Spot Instances and container-based infrastructure",
+          "Engineered multiple codec streaming with DASH and HLS for 4K content",
+          "Built and maintained a serverless CDN Edge for seamless playback across OTT devices",
+          "Designed and implemented a live-to-VOD generator with DRM protection"
         ]
       },
       "2": {
-        "title": "Senior Python Engineer",
-        "company_name": "Knownsec",
-        "date": "Nov 2020 - Mar 2022",
+        "title": "Engineering Manager, AppleTV & Roku",
+        "company_name": "fuboTV Inc.",
+        "date": "Feb 2018 - Nov 2018",
         "points": [
-          "Backend RESTful API development for B2B products",
-          "App backend development",
-          "Setting up CI/CD Pipeline"
+          "Managed a team of 10 software engineers in the NYC office",
+          "Led product roadmap and engineering goals for AppleTV & Roku teams",
+          "Contributed code to both platforms while managing the teams",
+          "Designed and implemented workflow automation integrating with Jira",
+          "Delivered the first ever UHD/HDR10 live feed for OTT during World Cup 2018"
         ]
       },
       "3": {
-        "title": "APP Backend Engineer",
-        "company_name": "Arktera AI(Part-time)",
-        "date": "June 2024 - Present",
+        "title": "Software Engineer, iOS",
+        "company_name": "fuboTV Inc.",
+        "date": "May 2017 - Feb 2018",
         "points": [
-          "Backend RestFul API development for Stocks community Application",
-          "Aws authentication and Sns notification and S3 storage management",
-          "AI chat bot development with LangChain and OpenAI API integration",
-          "Asynchronous task queue system development",
-          "FastAPI | Cache | AWS | LangChain | Celery | Websockets"
+          "Rewrote the fuboTV's Swift player framework from the ground up",
+          "Reduced dependency on 3rd party vendor SDKs",
+          "Designed and measured overall video quality experience",
+          "Leveraged Apple's AVFrameworks",
+          "Built & designed fuboTV's In App Billing system"
         ]
       },
       "4": {
-        "title": "Backend Development Specialist",
-        "company_name": "360",
-        "date": "Mar 2022 - Present",
+        "title": "Principal Developer & Founder",
+        "company_name": "Koda Labs Inc.",
+        "date": "Oct 2013 - May 2017",
         "points": [
-          "Large-scale data processing with Apache Spark and development of data pipelines",
-          "Distributed CAPTCHA service development using Golang",
-          "Development of large-scale backend systems using FastAPI and Flask",
-          "Independent development of a complete React-based task management system",
-          "Implementation of containerization and CI/CD automation workflows",
-          "Spark | FastAPI | Golang | React | Docker | K8s"
+          "Led a team of developers and designers in completing 15+ client projects",
+          "Managed client projects using agile methodologies",
+          "Utilized Apple's latest iOS APIs and frameworks",
+          "Designed and developed custom APIs leveraging AWS",
+          "Built & designed 4 different games in Unity3D with 1M+ users"
         ]
       }
     }
@@ -85,34 +94,34 @@
     "title": "MY SKILLS",
     "subTitle": "Technologies.",
     "skill": {
-      "0": "Backend",
-      "1": "Programming",
-      "2": "Frontend/Design"
+      "0": "Video Streaming",
+      "1": "Cloud & DevOps",
+      "2": "Mobile Development"
     }
   },
   "work": {
     "title": "MY WORK",
     "subTitle": "Projects.",
-    "content": "Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.",
+    "content": "Following projects showcase my expertise in video streaming technologies and software engineering. Each project represents significant innovations in the OTT video space, demonstrating my ability to solve complex problems, work with cutting-edge technologies, and lead teams to deliver high-impact solutions.",
     "card": {
       "0": {
-        "name": "React Developer PortFolio",
-        "description": "A modern personal portfolio built with React, Threejs, Framer Motion, and more. Can be used as a template for personal websites."
+        "name": "JIT Transcoding & Packaging",
+        "description": "A just-in-time transcoding and packaging solution for HEVC files, deployed in Kubernetes. This system optimizes streaming efficiency and quality, revolutionizing video delivery for OTT platforms."
       },
       "1": {
-        "name": "FastAPI Data Manage",
-        "description": "A backend project developed using FastAPI, with MongoDB and JWT and includes a user system. Great for learning FastAPI or as a starter for new projects."
+        "name": "Server-Side Multi-View",
+        "description": "Innovative system that integrates multiple video feeds within a single player interface, revolutionizing content consumption and enhancing viewer experience for sports and live events."
       },
       "2": {
-        "name": "React Data Admin",
-        "description": "A fronted project developed using React, with Typescript, Redux and Antd. It is the best practice to use React+hooks+antd."
+        "name": "VOD Encoding Pipeline",
+        "description": "End-to-end system for encoding, packaging, and delivering VOD content in multiple formats (HLS, DASH) with DRM protection. Leverages AWS Spot Instances and container-based infrastructure to reduce costs by 70%."
       }
     }
   },
   "blog": {
-    "title": "MY BLOGS",
-    "subTitle": "Blogs.",
-    "content": "My blog delves into meaningful problem-solving approaches, learning new technologies and languages, with a focus on databases, big data, and backend frameworks. Primarily centered around Python, the posts offer insightful examples and discussions. These articles serve as a resource for those interested in innovative solutions and the exploration of emerging tech trends in the programming world.",
+    "title": "MY PRESENTATIONS",
+    "subTitle": "Talks & Articles.",
+    "content": "I regularly share my expertise in video streaming technologies through presentations, talks, and technical articles. These resources cover topics like video encoding optimization, streaming protocols, cloud-based media processing, and the future of OTT platforms. Visit my website at https://awesome.video for more in-depth technical content.",
     "words": "Words",
     "reads": "Reads"
   },
