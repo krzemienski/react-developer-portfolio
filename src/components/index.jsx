@@ -12,6 +12,7 @@ import { AnimatedButton, DownArrowButton, MoreButton, ScrollArrowButton } from '
 import Navbar from './Navbar';
 import NotFoundPage from './NotFoundPage';
 import Tech from './Tech';
+import Talks from './Talks';
 import Works from './Works';
 
 export {
@@ -33,5 +34,6 @@ export {
   ScrollArrowButton,
   StarsCanvas,
   Tech,
+  Talks,
   Works,
 };

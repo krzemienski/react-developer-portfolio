@@ -53,6 +53,10 @@ export const navLinks = [
     titleKey: 'navBar.project',
   },
   {
+    id: 'talks',
+    titleKey: 'navBar.talks',
+  },
+  {
     id: 'blog',
     titleKey: 'navBar.blog',
   },
@@ -64,19 +68,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'about.cardTitle.0',
+    title: 'Video Streaming',
     icon: web,
   },
   {
-    title: 'about.cardTitle.1',
+    title: 'Mobile Development',
     icon: mobile,
   },
   {
-    title: 'about.cardTitle.2',
+    title: 'Cloud & DevOps',
     icon: backend,
   },
   {
-    title: 'about.cardTitle.3',
+    title: 'Software Engineering',
     icon: creator,
   },
 ];
@@ -152,66 +156,104 @@ const technologies = [
 
 export const skills = [
   {
-    Stack: 'tech.skill.0', // Video Streaming
+    Stack: 'Video Streaming',
     progressPercentage: '95',
   },
   {
-    Stack: 'tech.skill.1', // Cloud & DevOps
+    Stack: 'Cloud & DevOps',
     progressPercentage: '90',
   },
   {
-    Stack: 'tech.skill.2', // Mobile Development
+    Stack: 'Mobile Development',
     progressPercentage: '85',
   },
 ];
 
 const experiences = [
   {
-    title: 'experience.detail.0.title',
-    company_name: 'experience.detail.0.company_name',
+    title: 'Engineering Lead, Video Innovations',
+    company_name: 'fuboTV Inc.',
     icon: cnpc,
-    iconBg: '#E6DEDD',
-    date: 'experience.detail.0.date',
-    points: 'experience.detail.0.points',
+    iconBg: '#000000',
+    date: 'March 2022 - June 2024',
+    points: [
+      'Spearheaded the development of server-side multi-view systems in 2022, integrating multiple video feeds within a single player interface, revolutionizing content consumption and enhancing viewer experience.',
+      'Engineered a just-in-time (JIT) transcoding and packaging to HLS solution from 2023 to 2024, optimizing it for HEVC source files.',
+      'Deployed in Kubernetes (k8s), significantly enhancing system scalability, fault tolerance, and operational efficiency across video streaming operations.',
+      'Ensured high availability and service reliability through meticulous management of containerized applications.',
+    ],
   },
   {
-    title: 'experience.detail.1.title',
-    company_name: 'experience.detail.1.company_name',
+    title: 'Engineering Lead, VOD Encoding & Operations',
+    company_name: 'fuboTV Inc.',
     icon: cmb,
-    iconBg: '#E6DEDD',
-    date: 'experience.detail.1.date',
-    points: 'experience.detail.1.points',
+    iconBg: '#000000',
+    date: 'February 2018 - February 2022',
+    points: [
+      'Led the encoding, packaging, and operations of VODs, overseeing the delivery of approximately 500 hours of assets daily.',
+      'Implemented a system that efficiently received content, transcoded it to optimal bitrate ladders, and packaged it in both HLS and DASH formats with DRM protection.',
+      'Leveraged AWS Spot Instances and a container-based infrastructure to significantly reduce transcoding and packaging costs by approximately 70%.',
+      'Engineered multiple codec streaming with DASH (h.264, h.265, vp9) and HLS (h.264, h.265) assets for 4K content.',
+    ],
   },
   {
-    title: 'experience.detail.2.title',
-    company_name: 'experience.detail.2.company_name',
+    title: 'Engineering Manager, AppleTV & Roku',
+    company_name: 'fuboTV Inc.',
     icon: knownsec,
-    iconBg: '#E6DEDD',
-    date: 'experience.detail.2.date',
-    points: 'experience.detail.2.points',
+    iconBg: '#000000',
+    date: 'February 2018 - November 2018',
+    points: [
+      'Hired, managed, and mentored a team of 10 software engineers in the NYC office.',
+      'Responsible for both fuboTV\'s AppleTV & Roku teams\' product roadmap and engineering goals.',
+      'Contributed code to both Roku & AppleTV teams as an IC, while managing.',
+      'Helped build and deliver the first ever UHD/HDR10 live feed for OTT, during World Cup 2018.',
+    ],
   },
   {
-    title: 'experience.detail.3.title',
-    company_name: 'experience.detail.3.company_name',
-    icon: '',
-    iconBg: '#E6DEDD',
-    date: 'experience.detail.3.date',
-    points: 'experience.detail.3.points',
+    title: 'Software Engineer, iOS',
+    company_name: 'fuboTV Inc.',
+    icon: mobile,
+    iconBg: '#000000',
+    date: 'May 2017 - February 2018',
+    points: [
+      'Rewrote the fuboTV\'s Swift player framework from the ground up.',
+      'Response for the decreased usage in 3rd party vendors SDKs.',
+      'Designed and measured overall video quality experience.',
+      'Leveraged all of Apple\'s AVFrameworks.',
+    ],
   },
   {
-    title: 'experience.detail.4.title',
-    company_name: 'experience.detail.4.company_name',
+    title: 'Principal Developer & Founder',
+    company_name: 'Koda Labs Inc.',
     icon: s360,
-    iconBg: '#E6DEDD',
-    date: 'experience.detail.4.date',
-    points: 'experience.detail.4.points',
+    iconBg: '#000000',
+    date: 'October 2013 - May 2017',
+    points: [
+      'Hired, managed, and mentored a team of 3 developers and various contractors in completing over 15 successful client projects.',
+      'Managed all client projects using agile software methodologies and various project management tools.',
+      'Utilized Apple\'s latest iOS APIs and frameworks to ensure the best user experience on various client\'s apps.',
+      'Built & designed 4 different games in Unity3D that had user bases well over 1 million users.',
+    ],
+  },
+  {
+    title: 'Squad Leader',
+    company_name: 'United States Marine Corps Reserve',
+    icon: s360,
+    iconBg: '#000000',
+    date: 'December 2008 - January 2015',
+    points: [
+      'Directly responsible for the actions and well being of Marines under my command.',
+      'Coordinated the movement and employment of various weapons systems within my squad to complete missions and patrols.',
+      'Developed leadership while leading my team by adhering to the three core values of Marine Corps; Honor, Courage, and Commitment.',
+      'Reached the rank of Seargent in less than 4 years.',
+    ],
   },
 ];
 
 const projects = [
   {
-    name: 'work.card.0.name',
-    description: 'work.card.0.description',
+    name: 'JIT Transcoding and Packaging',
+    description: 'Engineered a just-in-time (JIT) transcoding and packaging to HLS solution from 2023 to 2024, optimizing it for HEVC source files. Deployed in Kubernetes (k8s), significantly enhancing system scalability, fault tolerance, and operational efficiency across video streaming operations.',
     tags: [
       {
         name: 'kubernetes',
@@ -230,8 +272,8 @@ const projects = [
     source_code_link: 'https://github.com/krzemienski',
   },
   {
-    name: 'work.card.1.name',
-    description: 'work.card.1.description',
+    name: 'Server-side Multi-view Systems',
+    description: 'Spearheaded the development of server-side multi-view systems in 2022, integrating multiple video feeds within a single player interface, revolutionizing content consumption and enhancing viewer experience.',
     tags: [
       {
         name: 'multi-view',
@@ -250,8 +292,8 @@ const projects = [
     source_code_link: 'https://github.com/krzemienski',
   },
   {
-    name: 'work.card.2.name',
-    description: 'work.card.2.description',
+    name: 'VOD Encoding & Operations Pipeline',
+    description: 'Led the encoding, packaging, and operations of VODs, overseeing the delivery of approximately 500 hours of assets daily. Implemented a system that efficiently received content, transcoded it to optimal bitrate ladders, and packaged it in both HLS and DASH formats with DRM protection.',
     tags: [
       {
         name: 'AWS',
@@ -271,11 +313,36 @@ const projects = [
   },
 ];
 
+const talks = [
+  {
+    title: 'HLS & DASH Multi Codec Encoding & Packaging',
+    description: 'This talk covers the implementation and optimization of multi-codec streaming solutions using both HLS and DASH packaging formats, with a focus on enhancing content delivery network flexibility and efficiency.',
+    url: 'https://youtu.be/AMFrkIb5Y5U?si=iZIkGZFloP9kQzeD',
+    pdf: '/HLS & DASH multi codec encoding & packaging v1.2 09022020.pdf',
+    image: article1,
+  },
+  {
+    title: 'Deep Dive into Video Streaming Technologies',
+    description: 'A comprehensive overview of modern video streaming technologies, infrastructure components, and optimization strategies for delivering high-quality video content at scale.',
+    url: 'https://youtu.be/g6C5qsQmEB8?si=cns1bL2NdjEH-IJj',
+    image: article2,
+  },
+];
+
+const podcasts = [
+  {
+    title: 'The Video Insiders: Exploring Streaming Video Technologies',
+    description: 'A discussion about the latest advancements in streaming video technologies, including multiple codec support, server-side multi-view systems, and just-in-time transcoding solutions.',
+    url: 'https://podcasts.apple.com/us/podcast/the-video-insiders/id1444571837?i=1000473286884',
+    image: article3,
+  },
+];
+
 const blogs = [
   {
     title: 'Optimizing Video Streaming with HEVC and AVC Dual Format Support',
     description:
-      'In this presentation, I discuss how implementing dual format support for both HEVC and AVC codecs significantly enhances content delivery network flexibility and efficiency. This approach ensures high-quality video content delivery across a wide range of devices and network conditions, optimizing streaming capabilities and improving the end-user experience with seamless, high-definition viewing.',
+      'How implementing dual format support for both HEVC and AVC codecs significantly enhances content delivery network flexibility and efficiency. This approach ensures high-quality video content delivery across a wide range of devices and network conditions.',
     wordCount: 1200,
     readCount: 8500,
     tags: [
@@ -298,7 +365,7 @@ const blogs = [
   {
     title: 'Server-Side Multi-View Systems for Enhanced Sports Viewing',
     description:
-      'This talk explores the development of server-side multi-view systems that integrate multiple video feeds within a single player interface. I discuss how this technology revolutionizes content consumption for sports events, allowing viewers to switch between camera angles and customize their viewing experience in real-time.',
+      'Exploring the development of server-side multi-view systems that integrate multiple video feeds within a single player interface. This technology revolutionizes content consumption for sports events, allowing viewers to switch between camera angles and customize their viewing experience in real-time.',
     wordCount: 950,
     readCount: 6200,
     tags: [
@@ -321,7 +388,7 @@ const blogs = [
   {
     title: 'Kubernetes for Video Processing: Scaling Transcoding Workloads',
     description:
-      'In this technical deep dive, I share insights on deploying video processing workloads in Kubernetes. The presentation covers how to effectively manage containerized applications, implement horizontal pod autoscaling, and utilize persistent volumes for data-intensive video processing tasks like transcoding and packaging.',
+      'Insights on deploying video processing workloads in Kubernetes. Covering how to effectively manage containerized applications, implement horizontal pod autoscaling, and utilize persistent volumes for data-intensive video processing tasks like transcoding and packaging.',
     wordCount: 1050,
     readCount: 7300,
     tags: [
@@ -341,52 +408,6 @@ const blogs = [
     image: article3,
     articleLink: 'https://awesome.video',
   },
-  {
-    title: 'Cost Optimization Strategies for Cloud-Based Video Processing',
-    description:
-      'This presentation explores how we reduced transcoding and packaging costs by approximately 70% compared to on-demand cloud compute by leveraging AWS Spot Instances and a container-based infrastructure. I discuss the architecture, implementation challenges, and best practices for maintaining reliability while significantly reducing operational costs.',
-    wordCount: 880,
-    readCount: 5400,
-    tags: [
-      {
-        name: 'AWS',
-        color: 'red',
-      },
-      {
-        name: 'Cost-Optimization',
-        color: 'blue',
-      },
-      {
-        name: 'Spot-Instances',
-        color: 'yellow',
-      },
-    ],
-    image: article4,
-    articleLink: 'https://awesome.video',
-  },
-  {
-    title: 'The Future of Video Streaming: Just-in-Time Transcoding and Packaging',
-    description:
-      'In this forward-looking talk, I discuss the development and implementation of just-in-time (JIT) transcoding and packaging solutions for video streaming. This approach represents the next evolution in video delivery, enabling more efficient use of storage and bandwidth while maintaining high-quality viewing experiences across devices.',
-    wordCount: 1100,
-    readCount: 9200,
-    tags: [
-      {
-        name: 'JIT',
-        color: 'red',
-      },
-      {
-        name: 'Transcoding',
-        color: 'blue',
-      },
-      {
-        name: 'Future-Tech',
-        color: 'yellow',
-      },
-    ],
-    image: article5,
-    articleLink: 'https://awesome.video',
-  },
 ];
 
 const githubRepos = {
@@ -403,4 +424,4 @@ const thisProject = {
   description: 'Portfolio website for Nick Krzemienski, Engineering Lead in Video Innovations',
 };
 
-export { blogs, experiences, githubRepos, projects, services, socials, technologies, thisProject };
+export { blogs, experiences, githubRepos, projects, services, socials, technologies, thisProject, talks, podcasts };

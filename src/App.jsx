@@ -16,6 +16,7 @@ import {
   StarsCanvas,
   Tech,
   Works,
+  Talks,
   // eslint-disable-next-line import/no-unresolved
 } from './components';
 
@@ -41,7 +42,7 @@ const App = () => {
 
       if (aspectRatio > 1.2) {
         return (
-          <div style={{ position: 'relative', width: '100%', minHeight: '500px' }}>
+          <div style={{ position: 'relative', width: '100%', minHeight: '500px', backgroundColor: '#000000' }}>
             <video autoPlay loop muted playsInline poster={herobgPreview}>
               <source src="https://wy-portfolio.oss-cn-chengdu.aliyuncs.com/herobg.webm" type="video/webm" />
               Your browser does not support the video tag.
@@ -50,11 +51,13 @@ const App = () => {
         );
       } else {
         return (
-          <img
-            src="https://wy-portfolio.oss-cn-chengdu.aliyuncs.com/herobg-mb.gif"
-            alt="Background"
-            style={{ width: '100%', minHeight: '500px' }}
-          />
+          <div style={{ backgroundColor: '#000000', width: '100%', minHeight: '500px' }}>
+            <img
+              src="https://wy-portfolio.oss-cn-chengdu.aliyuncs.com/herobg-mb.gif"
+              alt="Background"
+              style={{ width: '100%', minHeight: '500px' }}
+            />
+          </div>
         );
       }
     }
@@ -88,11 +91,8 @@ const App = () => {
         <div
           className="relative z-0"
           style={{
-            // backgroundImage: `url(${mainbg})`,
-            backgroundImage: 'url("https://wy-portfolio.oss-cn-chengdu.aliyuncs.com/mainbg.jpg")',
-
+            backgroundColor: '#000000',
             backgroundRepeat: 'no-repeat',
-            // Set background size, using 'cover' or 'contain' depending on your needs
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}
@@ -101,6 +101,7 @@ const App = () => {
           <Experience />
           <Tech />
           <Works />
+          <Talks />
           <StarsCanvas />
           <Blogs />
           <Contact />

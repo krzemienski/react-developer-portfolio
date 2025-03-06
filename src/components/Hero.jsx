@@ -19,7 +19,7 @@ const SocialButtons = () => {
 };
 
 const Hero = () => {
-  // 横向屏幕flex左右展示,竖向屏幕上下展示
+  // Responsive layout for horizontal/vertical screens
   const { t } = useTranslation();
   const [isHorizontalLayout, setIsHorizontalLayout] = useState(window.innerWidth / window.innerHeight > 1.2);
 
@@ -60,7 +60,16 @@ const Hero = () => {
                 }}
               />
             </div>
-            <div className={`mt-15 ${isHorizontalLayout ? 'sm:mt-20' : ''}`}>
+            <div className="mt-6 flex flex-row gap-4">
+              <a
+                href="/Nick_Krzemienski_072024_cv.pdf"
+                download="Nick_Krzemienski_Resume.pdf"
+                className="bg-accent text-black py-2 px-6 rounded-xl outline-none w-fit font-bold shadow-md cursor-pointer"
+              >
+                Download Resume
+              </a>
+            </div>
+            <div className={`mt-8 ${isHorizontalLayout ? 'sm:mt-12' : ''}`}>
               <SocialButtons />
             </div>
           </div>

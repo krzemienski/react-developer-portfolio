@@ -23,7 +23,13 @@ const ExperienceCard = ({ experience }) => {
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          <img src={experience.icon} alt={experience.company_name} className="w-[70%] h-[70%] object-contain" />
+          {experience.icon ? (
+            <img src={experience.icon} alt={experience.company_name} className="w-[70%] h-[70%] object-contain" />
+          ) : (
+            <div className="w-[70%] h-[70%] flex items-center justify-center text-white font-bold">
+              {experience.company_name.charAt(0)}
+            </div>
+          )}
         </div>
       }
     >
@@ -57,18 +63,9 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
-          {experiences.map((experience, index) => {
-            // 国际化
-            const localizedExperience = {
-              ...experience,
-              title: t(experience.title),
-              company_name: t(experience.company_name),
-              date: t(experience.date),
-              points: t(experience.points, { returnObjects: true }), // 确保点是数组
-            };
-
-            return <ExperienceCard key={index} experience={localizedExperience} />;
-          })}
+          {experiences.map((experience, index) => (
+            <ExperienceCard key={index} experience={experience} />
+          ))}
         </VerticalTimeline>
       </div>
     </>
